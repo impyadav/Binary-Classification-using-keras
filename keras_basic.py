@@ -5,7 +5,7 @@ import numpy as np
 
 np.random.seed(7)
 
-dataset = np.loadtxt('load_the_data', delimiter=',')
+dataset = np.loadtxt('load_the_data')
 X = dataset[:,0:8]
 Y = dataset[:,8]
 
